@@ -53,7 +53,6 @@ const BookingItem = ({ booking }: BookingItemProps) => {
 
     try {
       await cancelBooking(booking.id);
-
       toast.success("Reserva cancelada com sucesso!");
     } catch (error) {
       console.error(error);
@@ -80,7 +79,6 @@ const BookingItem = ({ booking }: BookingItemProps) => {
               <div className="flex items-center gap-2">
                 <Avatar className="h-7 w-7">
                   <AvatarImage src={booking.barbershop.imageUrl} />
-
                   <AvatarFallback>A</AvatarFallback>
                 </Avatar>
 
@@ -92,9 +90,7 @@ const BookingItem = ({ booking }: BookingItemProps) => {
 
             <div className="flex flex-1 flex-col items-center justify-center border-l border-solid border-secondary">
               <p className="text-sm capitalize lg:text-base">
-                {format(booking.date, "MMMM", {
-                  locale: ptBR,
-                })}
+                {format(booking.date, "MMMM", { locale: ptBR })}
               </p>
               <p className="text-2xl">{format(booking.date, "dd")}</p>
               <p className="text-sm lg:text-base">
@@ -107,7 +103,7 @@ const BookingItem = ({ booking }: BookingItemProps) => {
 
       <SheetContent className="px-5">
         <SheetHeader className="border-b border-solid border-secondary pb-6 text-left">
-          <SheetTitle className="text-xl">Informaçoes de Reserva</SheetTitle>
+          <SheetTitle className="text-xl">Informações de Reserva</SheetTitle>
         </SheetHeader>
 
         <div>
@@ -116,19 +112,26 @@ const BookingItem = ({ booking }: BookingItemProps) => {
               src="/barbershop-map.png"
               fill
               alt={booking.barbershop.name}
-              style={{
-                objectFit: "cover",
-              }}
+              style={{ objectFit: "cover" }}
               className="rounded-xl"
             />
+
+            {booking.barbershop.localizacaomaps && (
+              <a
+                href={booking.barbershop.localizacaomaps}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="absolute top-3 right-3 z-10 rounded-md bg-white px-3 py-1 text-sm font-medium shadow hover:bg-gray-100"
+              >
+                Ver no Mapa
+              </a>
+            )}
 
             <div className="absolute bottom-7 left-0 w-full px-5">
               <Card>
                 <CardContent className="flex gap-2 p-3">
                   <Avatar>
-                    <AvatarImage
-                      src={booking.barbershop.imageUrl}
-                    ></AvatarImage>
+                    <AvatarImage src={booking.barbershop.imageUrl} />
                   </Avatar>
 
                   <div>
@@ -179,7 +182,7 @@ const BookingItem = ({ booking }: BookingItemProps) => {
                   </AlertDialogTitle>
 
                   <AlertDialogDescription className="lg:text-base">
-                    Uma vez cancelada , não será possível reverter esta ação.
+                    Uma vez cancelada, não será possível reverter esta ação.
                   </AlertDialogDescription>
                 </AlertDialogHeader>
 

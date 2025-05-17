@@ -30,6 +30,7 @@ model Barbershop {
   ratings     String
   description String
   telefone    String
+  localizacaomaps String
   services    Service[]
   bookings    Booking[]
 }
