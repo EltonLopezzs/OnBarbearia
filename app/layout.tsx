@@ -8,7 +8,7 @@ import AuthProvider from "./_providers/auth";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "BARBERBLEND | Simplicidade no agendamento, excelência no corte!",
+  title: "onBarber | Simplicidade no agendamento, excelência no corte!",
   description: "Criado por Israel Kilday",
 };
 

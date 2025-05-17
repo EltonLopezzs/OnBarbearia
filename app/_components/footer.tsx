@@ -70,7 +70,7 @@ const Footer = () => {
             <h3 className="md:pl-5">INSTITUCIONAL</h3>
             <div className="group flex items-center gap-1">
               <Scissors className="size-4 font-bold opacity-0 duration-200 group-hover:opacity-100" />
-              <p className="text-gray-400">Sobre a BARBERBLEND</p>
+              <p className="text-gray-400">Sobre a OnSoftware</p>
             </div>
 
             <div className="group flex items-center gap-1">
