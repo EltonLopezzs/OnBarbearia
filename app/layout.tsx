@@ -9,7 +9,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "onBarber | Simplicidade no agendamento, excelência no corte!",
-  description: "Criado por Israel Kilday",
+  description: "Criado por Onsoftware",
 };
 
 export default function RootLayout({
