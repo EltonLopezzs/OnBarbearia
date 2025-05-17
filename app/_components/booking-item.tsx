@@ -7,7 +7,7 @@ import Image from "next/image";
 import { cancelBooking } from "../_actions/cancel-booking";
 import BookingInfo from "./booking-info";
 import { useState } from "react";
-import { Loader2 } from "lucide-react";
+import { Loader2, MapPin } from "lucide-react"; // <-- Ícone adicionado aqui
 import { toast } from "sonner";
 import { Avatar, AvatarFallback, AvatarImage } from "./ui/avatar";
 import { Badge } from "./ui/badge";
@@ -50,7 +50,6 @@ const BookingItem = ({ booking }: BookingItemProps) => {
 
   const handleCancelClick = async () => {
     setIsDeleteLoading(true);
-
     try {
       await cancelBooking(booking.id);
       toast.success("Reserva cancelada com sucesso!");
@@ -74,7 +73,9 @@ const BookingItem = ({ booking }: BookingItemProps) => {
                 {isBookingConfirmed ? "Confirmado" : "Finalizado"}
               </Badge>
 
-              <h2 className="font-bold md:text-base">{booking.Service.name}</h2>
+              <h2 className="font-bold md:text-base">
+                {booking.Service.name}
+              </h2>
 
               <div className="flex items-center gap-2">
                 <Avatar className="h-7 w-7">
@@ -121,8 +122,9 @@ const BookingItem = ({ booking }: BookingItemProps) => {
                 href={booking.barbershop.localizacaomaps}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="absolute top-3 right-3 z-10 rounded-md bg-white px-3 py-1 text-sm font-medium shadow hover:bg-gray-100"
+                className="absolute top-3 right-3 z-10 flex items-center gap-2 rounded-md bg-white px-3 py-1 text-sm font-medium shadow hover:bg-gray-100"
               >
+                <MapPin className="h-4 w-4" />
                 Ver no Mapa
               </a>
             )}
@@ -180,7 +182,6 @@ const BookingItem = ({ booking }: BookingItemProps) => {
                   <AlertDialogTitle className="lg:text-xl">
                     Deseja mesmo Cancelar Reserva?
                   </AlertDialogTitle>
-
                   <AlertDialogDescription className="lg:text-base">
                     Uma vez cancelada, não será possível reverter esta ação.
                   </AlertDialogDescription>
