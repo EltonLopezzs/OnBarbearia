@@ -122,7 +122,7 @@ const BookingItem = ({ booking }: BookingItemProps) => {
                 href={booking.barbershop.localizacaomaps}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="absolute top-3 right-3 z-10 flex items-center gap-2 rounded-md bg-white px-3 py-1 text-sm font-medium shadow hover:bg-gray-100"
+                className="absolute top-3 right-3 z-10 flex items-center gap-2 rounded-md bg-black text-white px-3 py-1 text-sm font-medium shadow hover:bg-zinc-800"
               >
                 <MapPin className="h-4 w-4" />
                 Ver no Mapa
