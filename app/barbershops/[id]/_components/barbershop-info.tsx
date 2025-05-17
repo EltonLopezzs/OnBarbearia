@@ -133,8 +133,8 @@ const BarbershopInfo = ({ barbershop }: BarbershopInfoProps) => {
                 </div>
 
                 <div>
-                  <p className="text-sm">08:00 - 12:00</p>
                   <p className="text-sm">Fechado</p>
+                  <p className="text-sm">08:00 - 18:00</p>
                   <p className="text-sm">08:00 - 18:00</p>
                   <p className="text-sm">08:00 - 18:00</p>
                   <p className="text-sm">08:00 - 18:00</p>
