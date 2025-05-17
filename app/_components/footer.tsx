@@ -23,25 +23,25 @@ const Footer = () => {
           >
             <Scissors className="font-bold text-purple-500" />
 
-            <h2 className="font-berkshire-swash md:text-lg">BARBERBLEND</h2>
+            <h2 className="font-berkshire-swash md:text-lg">OnBarber</h2>
 
             <Scissors className="trasform rotate-180 font-bold text-purple-500" />
           </Link>
 
           <div className="flex gap-3">
-            <Link href="https://www.linkedin.com/in/israeldevfrontend">
+            <Link href="https://www.linkedin.com/in/elton-reis-lopes-b563a2235/">
               <FaLinkedin className="size-6 text-gray-400 duration-300 hover:font-bold hover:text-secondary-foreground" />
             </Link>
 
-            <Link href="https://github.com/Israelkilday">
+            <Link href="https://github.com/ELTONLOPEZZS">
               <FaGithub className="size-6 text-gray-400 duration-300 hover:font-bold hover:text-secondary-foreground" />
             </Link>
 
-            <Link href="https://www.instagram.com/israelkilday/">
+            {/* <Link href="https://www.instagram.com/israelkilday/">
               <FaInstagram className="size-6 text-gray-400 duration-300 hover:font-bold hover:text-secondary-foreground" />
-            </Link>
+            </Link> */}
 
-            <a href="mailto:israel.kilday@yahoo.com.br">
+            <a href="mailto:eltonlopes15@gmail.com.br">
               <MdEmail className="size-[26px] text-gray-400 duration-300 hover:font-bold hover:text-secondary-foreground" />
             </a>
           </div>
@@ -90,12 +90,12 @@ const Footer = () => {
             <h3 className="md:pl-5">CONTATO</h3>
             <div className="flex items-center gap-1">
               <Phone className="size-4 font-bold" />
-              <p className="text-gray-400">(85) 91234 5678</p>
+              <p className="text-gray-400">(21) 99501 4804</p>
             </div>
 
             <div className="flex items-center gap-1">
-              <Headset className="size-4 font-bold" />
-              <p className="text-gray-400">SAC - 0800 1234 5678</p>
+              {/* <Headset className="size-4 font-bold" /> */}
+              {/* <p className="text-gray-400">SAC - 0800 1234 5678</p> */}
             </div>
           </div>
         </div>
@@ -104,22 +104,14 @@ const Footer = () => {
       <div className="flex items-center justify-between border-t border-gray-700 bg-secondary px-5 py-5 lg:px-32">
         <div className="lg:flex lg:gap-5">
           <p className="text-sm font-bold text-gray-400 md:text-base">
-            © 2024 BARBERBLEND
+            © 2025 onSoftware
             <br className="md:hidden" /> Todos os direitos reservados
           </p>
 
           <p className="text-sm font-bold text-gray-400 md:text-base">
             Desenvolvido por:&nbsp;
-            <a
-              href="https://portfolioikdev-zeta-nine.vercel.app/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              &lt;/
-              <span className="brand tracking-widest text-white duration-150 hover:text-emerald-400">
-                Israel Kilday
-              </span>
-              &gt;
+            <a >
+               OnSoftware
             </a>
           </p>
         </div>

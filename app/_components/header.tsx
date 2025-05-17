@@ -32,7 +32,7 @@ const Header = () => {
           >
             <Scissors className="font-bold text-purple-500" />
 
-            <h2 className="font-berkshire-swash md:text-lg">BARBERBLEND</h2>
+            <h2 className="font-berkshire-swash md:text-lg">OnBarber</h2>
 
             <Scissors className="trasform rotate-180 font-bold text-purple-500" />
           </Link>
