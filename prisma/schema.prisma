@@ -29,6 +29,7 @@ model Barbershop {
   stars       String
   ratings     String
   description String
+  telefone    String
   services    Service[]
   bookings    Booking[]
 }
