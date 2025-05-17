@@ -1,11 +1,11 @@
-# ✂ BARBERBLEND
+# ✂ OnSoftware
 
 <a name="readme-top"></a>
 
 <div align="center"><br>
   
- ***[BARBERBLEND](https://barberblend.vercel.app/)*** é uma plataforma de agendamento online que simplifica o processo de reserva de 
- horários em diversas barbearias. Com BarberBlend, você pode agendar serviços especializados com praticidade e rapidez, tudo no conforto da sua casa.  
+ ***[OnSoftware](https://OnSoftware.vercel.app/)*** é uma plataforma de agendamento online que simplifica o processo de reserva de 
+ horários em diversas barbearias. Com OnSoftware, você pode agendar serviços especializados com praticidade e rapidez, tudo no conforto da sua casa.  
  Neste projeto, implementei uma funcionalidade de agendamento e cancelamento intuitiva e sincronizada, permitindo aos usuários marcar e desmarcar serviços de forma fácil e eficiente.
 </div>
 
@@ -15,15 +15,15 @@ https://github.com/Israelkilday/barbershop/assets/101229204/6e473802-9031-43e1-b
 
 ## Fluxograma de Login
 
-![Diagrama barberblend drawio](https://github.com/user-attachments/assets/3e887d52-71b9-4b04-95fd-be8a1bd3f19d)
+![Diagrama OnSoftware drawio](https://github.com/user-attachments/assets/3e887d52-71b9-4b04-95fd-be8a1bd3f19d)
 
 ## Fluxograma de Reserva
 
-![fluxograma booking barberblend drawio](https://github.com/user-attachments/assets/574e46c0-8bf5-4b8a-952a-9936f645eedf)
+![fluxograma booking OnSoftware drawio](https://github.com/user-attachments/assets/574e46c0-8bf5-4b8a-952a-9936f645eedf)
 
 ## Diagrama Entidade-Relacionamento do Esquema Prisma:
 
-![Untitled diagram-2024-06-19-220414](https://github.com/Israelkilday/BARBERBLEND/assets/101229204/a712c2e5-0d8c-4ede-95e9-03a2edc28131)
+![Untitled diagram-2024-06-19-220414](https://github.com/Israelkilday/OnSoftware/assets/101229204/a712c2e5-0d8c-4ede-95e9-03a2edc28131)
 
 ## ⚙️ Pré-requisitos
 
@@ -135,16 +135,7 @@ Se você deseja contribuir com este projeto, siga estas etapas:
 
 ## 🔗 Link do Projeto
 
-https://barberblend.vercel.app/
+https://Onbarbearia.vercel.app/
 
-## 🧠 Autor
 
-israel.kilday@yahoo.com.br
-
-[![linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/israel-kilday-machado-de-souza-801482230) <a href="mailto:israelkilday27@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-333333?style=for-the-badge&logo=gmail&logoColor=red" />
-</a>
-
- ### Obrigado por visitar meu projeto! 👋 
-  
  <p align="right">(<a href="#readme-top">voltar ao topo</a>)</p>
