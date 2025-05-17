@@ -32,8 +32,8 @@ const BarbershopInfo = ({ barbershop }: BarbershopInfoProps) => {
   const [copied, copyToClipboard] = useCopyToClipboard();
 
   const handleCopy = () => {
-    copyToClipboard("(85) 1234 5678");
-    copyToClipboard("(85) 91234 5678");
+    // copyToClipboard("(85) 1234 5678");
+    // copyToClipboard("(85) 91234 5678");
     toast.success("Número de Telefone copiado com sucesso!");
   };
 
