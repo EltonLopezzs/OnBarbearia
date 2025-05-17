@@ -8,6 +8,15 @@ const nextConfig = {
       {
         hostname: "i.imgur.com",
       },
+      {
+        hostname: "maps.googleapis.com",
+      },
+      {
+        hostname: "lh3.googleusercontent.com",
+      },
+      {
+        hostname: "www.google.com",
+      },
     ],
   },
 };
