@@ -1,3 +1,5 @@
+"use client";
+
 import { Barbershop } from "@prisma/client";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
@@ -9,6 +11,7 @@ import {
   Copy,
   MapPinIcon,
   Phone,
+  Smartphone,
   StarIcon,
 } from "lucide-react";
 import Header from "@/app/_components/header";
